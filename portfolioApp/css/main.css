@@ -1,0 +1,92 @@
+
+
+
+body {
+  text-align: center;
+}
+.head {
+  border-bottom: 4px solid #bababa;
+  margin: 20px 0 20px;
+}
+
+* {
+  font-family:"Lato" Times New Roman;
+}
+
+.udacitylogo {
+  padding-top: 40px;
+}
+
+.udacitylogo img {
+  max-width: 70px;
+}
+
+.text {
+  text-transform: uppercase;
+  color: #2d3c49;
+}
+
+
+
+@media (min-width: 48em) {
+
+  .text {
+    text-align: right;
+  }
+
+  .udacitylogo {
+    text-align: left;
+  }
+
+  .text h1 {
+    font-size: 3em;
+    font-weight: 100;
+    margin-bottom: 0;
+  }
+
+  .text h3 {
+    font-weight: 400;
+    margin-top: 0.5em;
+  }
+
+}
+
+@media (max-width: 48em) {
+
+  .text, .udacitylogo{
+    text-align: center;
+  }
+
+  .text h1 {
+    font-size: 3em;
+    font-weight: 100;
+    margin-bottom: 0;
+  }
+
+  .text h3 {
+    font-weight: 400;
+    margin-top: 0.5em;
+  }
+
+}
+
+main img {
+  width: 50%;
+  float: right;
+  margin-left: 40px;
+}
+footer h2 {
+  text-align: left;
+  font-size: 3em;
+  font-weight: 350;
+  color: #7d97ad;
+}
+
+footer a {
+  color: #2d3c49;
+  text-decoration: none;
+}
+
+article img {
+  width: 100%;
+}
